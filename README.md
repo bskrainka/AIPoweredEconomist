@@ -1,2 +1,4 @@
-# sf_fed_ai_demo
-Demo of the new GenAI workflow for economists
+# AI Powered Economist Demo
+
+We provide a simple talking track and agenda to demonstrate a new workflow for
+Economists using generative AI (GenAI).
