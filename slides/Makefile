@@ -6,7 +6,7 @@ PANDOC_RAW = pandoc
 RM = rm -f
 
 # Files
-TGT = ai_economist.pdf
+TGT = ai_econ.pdf
 
 # Rules
 default: $(TGT)
