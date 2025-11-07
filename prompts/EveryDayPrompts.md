@@ -34,6 +34,21 @@ In the directory resources/whiteboard you will find several image files. Read ea
 Then write the notes to one markdown file.
 ```
 
+##  Labeling data
+
+```
+You are an expert in advertising and the business landscape. Please review
+the list of brands in resources/IPA-Brands.txt and identify the industry
+associated with each brand. Output a csv list with two columns, one with the
+brand and the other with the industry.
+```
+
+```
+Generate a bar chart showing the percentage of the brands in 
+each industry. Organize from largest percentage to smallest.
+Only show the top 10-20 brands.
+```
+
 ##  Code reviews
 
 ```
