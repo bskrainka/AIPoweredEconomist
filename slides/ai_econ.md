@@ -23,24 +23,15 @@ Economists risk obsolescence if we don't update our workflow to use Gen AI:
 
 ##  Agenda
 
-Today, I will show you a couple ways AI is changing how Economists work:
+Today, I will demo a couple ways AI is changing how Economists work:
 
-*   Everyday tasks with documents
-*   Using Quick Suite for research and automation
-*   Building code with Q CLI
-*   Building code with [Kiro](https://kiro.dev/)
-
-
-##  AI Workflow Demos
-
-*   Everyday tasks
+*   Everyday tasks using [Q CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html):
     -   Working with documents (summary, assessment, writing)
     -   Eliminating toil (convert whiteboard images to markdown)
     -   Assessing submissions for a poster session
-*   Doing research with Quick Suite
-*   Building code to answer research questions using *prompt driven development*
-
-*   [Kiro](https://docs.hub.amazon.dev/kiro/user-guide/getting-started/) is a similar option: IDE with AI code generation capabilities
+*   Performing research and automation using [Quick Suite](https://aws.amazon.com/quicksuite/)
+*   Building code to answer research questions using *prompt driven development* 
+    using [Q CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html) or [Kiro](https://kiro.dev/)
 
 
 ##   Warning: Ownership and Quality
