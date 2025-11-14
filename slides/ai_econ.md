@@ -10,6 +10,16 @@ date: November 17, 2025
 output: beamer_presentation
 ---
 
+##  Economics and Generative AI
+
+This is a big topic and could mean:
+
+*   How AI affects society and the economy
+*   Using AI to increase productivity, scope, and scale
+*   Using deep learning techniques in Economic models
+
+I will focus on using AI tools to super-charge the workflow for Economics
+
 
 ## The AI-Powered Economist
 
