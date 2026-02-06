@@ -7,8 +7,24 @@ Economists using generative AI (GenAI).
 
 ##  Setup
 
+### Stuff to install
+
 To work through these demos, please install or setup accounts to use:
 
-*   [Q CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line.html): a command-line AI tool to use Q Developer for everyday tasks
-*   [Kiro](https://kiro.dev/): an AI IDE for defining, designing, and building software
-*   [Quick Suite](https://aws.amazon.com/quicksuite/): agentic teammates for research, business insights, and automation
+*   Download and install [Kiro CLI](https://kiro.dev/docs/cli/installation/).
+*   Verify Kiro will run a simple prompt
+*   Ensure you can access Git Hub: I will distribute materials this way
+*   Ensure you have either a working Python (such as condo/mamba) or R installation
+
+
+###  Optional helpful things to install
+
+Optional: On OS/X,
+
+*   Install [iTerm2](https://iterm2.com/), which will make using the Terminal/CLI much more pleasant. 
+*   Install [Home Brew](https://brew.sh/) (aka ‘brew’) which will provide Unix-ish commands
+
+Optional: On Windows, 
+
+*   Install Windows terminal + widget or equivalent (such as Chocolatey)
+*   Note: I do not use Windows  so YMMV
