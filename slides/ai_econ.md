@@ -6,7 +6,7 @@ author: |
   | Principal Economist
   | skrainka@amazon.com
   | [Amazon, Inc.](https://www.amazon.com/)
-date: November 17, 2025
+date: February 12, 2026
 output: beamer_presentation
 ---
 
@@ -35,13 +35,48 @@ Economists risk obsolescence if we don't update our workflow to use Gen AI:
 
 Today, I will demo a couple ways AI is changing how Economists work:
 
-*   Everyday tasks using [Q CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html):
+*   Everyday tasks using [Kiro CLI](https://kiro.dev/docs/cli/installation/)
     -   Working with documents (summary, assessment, writing)
     -   Eliminating toil (convert whiteboard images to markdown)
     -   Assessing submissions for a poster session
 *   Performing research and automation using [Quick Suite](https://aws.amazon.com/quicksuite/)
 *   Building code to answer research questions using *prompt driven development* 
-    using [Q CLI](https://docs.aws.amazon.com/amazonq/latest/qdeveloper-ug/command-line-installing.html) or [Kiro](https://kiro.dev/)
+    using [Kiro CLI](https://kiro.dev/docs/cli/installation/) or [Kiro](https://kiro.dev/)
+
+
+##  Helpful things to install for this demo
+
+*   Download and install [Kiro CLI](https://kiro.dev/docs/cli/installation/).
+*   Verify Kiro will run a simple prompt
+*   Ensure you can access Git Hub: I will distribute materials this way
+*   Ensure you have either a working Python (such as condo/mamba) or R installation
+
+
+##  Optional helpful things to install
+
+Optional: On OS/X,
+
+*   Install [iTerm2](https://iterm2.com/), which will make using the Terminal/CLI much more pleasant. 
+*   Install [Home Brew](https://brew.sh/) (aka ‘brew’) which will provide Unix-ish commands
+
+Optional: On Windows, 
+
+*   Install Windows terminal + widget or equivalent (such as Chocolatey)
+*   Note: I do not use Windows  so YMMV
+
+
+##  Key Terms
+
+*   Large Language Model (LLM): a stateless, non-deterministic predictive algorithm--essentially a model architecture plus weights
+*   Tool: a service the LLM can call using Model Context Protocol (MCP) to complete a task such as reading a PDF
+*   Skill: another name for a tool
+*   Prompt: instructions you provide to perform some task
+*   Context: additional input to nudge the LLM to produce relevant results (a prior and constraints)
+
+
+##  Agent Reasoning Loop
+
+![Agent Reasoning Loop](./img/AgentReasoningLoop.png)
 
 
 ##   Warning: Ownership and Quality
