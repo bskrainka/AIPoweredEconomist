@@ -67,11 +67,12 @@ Optional: On Windows,
 
 ##  Key Terms
 
-*   Large Language Model (LLM): a stateless, non-deterministic predictive algorithm--essentially a model architecture plus weights
-*   Tool: a service the LLM can call using Model Context Protocol (MCP) to complete a task such as reading a PDF
-*   Skill: another name for a tool
-*   Prompt: instructions you provide to perform some task
-*   Context: additional input to nudge the LLM to produce relevant results (a prior and constraints)
+*   **Large Language Model (LLM)**: a stateless, non-deterministic predictive algorithm--essentially a model architecture plus weights
+*   **Model Context Protocol (MCP)**: an open standard that enables LLMs to connect with external tools, data sources, and services
+*   **Tool**: a service an LLM can call using Model Context Protocol (MCP) to complete a task such as reading a PDF
+*   **Skill**: another name for a tool
+*   **Prompt**: instructions you provide to perform some task
+*   **Context**: additional input to nudge the LLM to produce relevant results (a prior and constraints)
 
 
 ## Prompt Driven Development
