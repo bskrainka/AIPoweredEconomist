@@ -74,6 +74,32 @@ Optional: On Windows,
 *   Context: additional input to nudge the LLM to produce relevant results (a prior and constraints)
 
 
+## Prompt Driven Development
+
+**Definition:** An iterative approach where developers describe desired outcomes in natural language prompts, and AI generates code incrementally through conversation.
+
+Key Characteristics:
+
+- Exploratory and adaptive—requirements emerge through dialogue
+- Low upfront investment; fast prototyping
+- Code evolves via refinement cycles
+
+Why It Suits Research:
+
+- Supports hypothesis-driven exploration
+- Accommodates changing requirements as understanding deepens
+- Reduces boilerplate, letting researchers focus on ideas
+
+
+## Prompt vs. Spec Driven Development
+
+| Prompt Driven | Spec Driven |
+|---------------|-------------|
+| Requirements discovered iteratively | Requirements defined upfront |
+| Flexible, conversational | Formal, structured specifications |
+| Best for exploration | Best for well-understood problems |
+
+
 ##  Agent Reasoning Loop
 
 ![Agent Reasoning Loop](./img/AgentReasoningLoop.png)
